@@ -1,13 +1,12 @@
 # Linux-IPC--Pipes
 Linux-IPC-Pipes
 
-
 # Ex03-Linux IPC - Pipes
 
-# AIM :
+## AIM :
 To write a C program that illustrate communication between two process using unnamed and named pipes
 
-# DESIGN STEPS :
+## DESIGN STEPS :
 
 ### Step 1 :
 
@@ -21,13 +20,13 @@ Write the C Program using Linux Process API - pipe(), fifo()
 
 Testing the C Program for the desired output. 
 
-# PROGRAM :
+## PROGRAM :
 ```
 Developed By : NITHYA D
 Reg No : 212223240110
 ```
 
-## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
+### C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 ```
 #include<stdlib.h>
 #include<sys/types.h> 
@@ -85,14 +84,10 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
 ```
 
+### OUTPUT :
+![image](https://github.com/Aishwarya-sankar/Linux-IPC-Pipes/assets/121418444/66ddd85d-1e42-4e54-8289-c851838e22ea)
 
-
-
-## OUTPUT :
-file:///home/sec/Downloads/Screenshot%20from%202024-03-30%2009-30-43(2).png![image](https://github.com/Aishwarya-sankar/Linux-IPC-Pipes/assets/121418444/66ddd85d-1e42-4e54-8289-c851838e22ea)
-
-
-## C Program that illustrate communication between two process using named pipes using Linux API system calls
+### C Program that illustrate communication between two process using named pipes using Linux API system calls
 ```
 #include <unistd.h>
 #include <stdlib.h>
@@ -106,13 +101,8 @@ exit(EXIT_SUCCESS);
 }
 ```
 
-
-
-
-## OUTPUT :
+### OUTPUT :
 ![image](https://github.com/BharathCSEIOT/Linux-IPC-Pipes/assets/122793480/2007e2bc-12fa-41b0-81af-afa798be4bb6)
 
-
-
-# RESULT :
+## RESULT :
 The program is executed successfully.
